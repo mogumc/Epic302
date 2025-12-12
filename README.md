@@ -25,8 +25,9 @@
 
 ## ✨ 使用须知
 
-**请以管理员模式启动**  
+### 请以管理员模式启动 
 
+**重定向后速度不满意可使用[UsbEAm Hosts Editor](https://www.dogfight360.com/blog/18627/)修改对应hosts来指定IP,指定后暂停再开始下载即可** 
 暂不支持https流量处理，经过观察epic大部分时间使用http流量。
 仅提供Windows下编译,且仅支持64位Win10以上系统。其他系统请自行编译。
 
