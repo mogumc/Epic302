@@ -33,7 +33,7 @@
 
 ## 🩺 常见问题
 
-**下载长时间为0Mbps？**
+**下载长时间为0Mbps？**  
 访问启动器目录下``Epic Games\Launcher\Engine\Config``中的``BaseEngine.ini``修改HTTP组以下部分  
 ```
 [HTTP]
@@ -41,10 +41,10 @@ HttpConnectionTimeout=30
 ```  
 将数值减小(建议 10)后重启启动器
 
-**速度不理想？**
+**速度不理想？**  
 使用[UsbEAm Hosts Editor](https://www.dogfight360.com/blog/18627/)修改对应hosts来指定IP下载
 
-**EPIC返回tls握手失败？**
+**EPIC返回tls握手失败？**  
 访问启动器目录下``Epic Games\Launcher\Engine\Config``中的``BaseEngine.ini``寻找HTTP组下是否存在  
 ```
 [HTTP]
