@@ -3,7 +3,7 @@
 > ⚡ Epic 游戏优化的本地代理转发，劫持并转发请求至固定 CDN 节点。
 
 ![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows%20(WSL)-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![License](https://img.shields.io/github/license/mogumc/Epic302)
 
 ---
@@ -28,6 +28,7 @@
 **请以管理员模式启动**  
 
 暂不支持https流量处理，经过观察epic大部分时间使用http流量。
+仅提供Windows下编译,且仅支持64位Win10以上系统。其他系统请自行编译。
 
 ## 📌 AI生成使用说明
 
