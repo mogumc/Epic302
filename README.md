@@ -45,7 +45,7 @@ HttpConnectionTimeout=30
 使用[UsbEAm Hosts Editor](https://www.dogfight360.com/blog/18627/)修改对应hosts来指定IP下载
 
 **EPIC返回tls握手失败？**  
-访问启动器目录下``Epic Games\Launcher\Engine\Config``中的``DefaultEngine.ini``寻找HTTP组下是否存在  
+访问启动器目录下``Epic Games\Launcher\Portal\Config``中的``DefaultEngine.ini``寻找HTTP组下是否存在  
 ```
 [HTTP]
 bUseNullHttp=true
