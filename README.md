@@ -34,7 +34,7 @@
 ## 🩺 常见问题
 
 **下载长时间为0Mbps？**  
-访问启动器目录下``Epic Games\Launcher\Engine\Config``中的``BaseEngine.ini``修改HTTP组以下部分  
+访问启动器目录下``Epic Games\Launcher\Portal\Config``中的``DefaultEngine.ini``修改HTTP组以下部分  
 ```
 [HTTP]
 HttpConnectionTimeout=30
@@ -45,12 +45,12 @@ HttpConnectionTimeout=30
 使用[UsbEAm Hosts Editor](https://www.dogfight360.com/blog/18627/)修改对应hosts来指定IP下载
 
 **EPIC返回tls握手失败？**  
-访问启动器目录下``Epic Games\Launcher\Engine\Config``中的``BaseEngine.ini``寻找HTTP组下是否存在  
+访问启动器目录下``Epic Games\Launcher\Engine\Config``中的``DefaultEngine.ini``寻找HTTP组下是否存在  
 ```
 [HTTP]
-bUseNullHttp=false
+bUseNullHttp=true
 ```  
-若存在删除该行后重启启动器
+若存在修改该行为``false``后重启启动器
 
 ## 📌 AI生成使用说明
 
